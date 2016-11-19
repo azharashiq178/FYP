@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18189A291DDAF80200C59883 /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18189A281DDAF80200C59883 /* FeedbackViewController.m */; };
+		184ECCCC1DDAB2370034C7E6 /* RegisterAsDoctorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ECCCB1DDAB2370034C7E6 /* RegisterAsDoctorViewController.m */; };
+		184ECCCF1DDABAB60034C7E6 /* RegisterAsDoctor2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ECCCE1DDABAB60034C7E6 /* RegisterAsDoctor2ViewController.m */; };
 		1875BBDB1D96343E007AE7FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875BBDA1D96343E007AE7FE /* main.m */; };
 		1875BBDE1D96343E007AE7FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875BBDD1D96343E007AE7FE /* AppDelegate.m */; };
 		1875BBE11D96343E007AE7FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875BBE01D96343E007AE7FE /* ViewController.m */; };
@@ -15,6 +18,18 @@
 		1875BBE91D96343E007AE7FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1875BBE71D96343E007AE7FE /* LaunchScreen.storyboard */; };
 		1875BBF41D96343E007AE7FE /* FYPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875BBF31D96343E007AE7FE /* FYPTests.m */; };
 		1875BBFF1D96343E007AE7FE /* FYPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875BBFE1D96343E007AE7FE /* FYPUITests.m */; };
+		188927281DC9B1EF0044A335 /* CategoryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188927271DC9B1EF0044A335 /* CategoryCollectionViewController.m */; };
+		1889272B1DC9B2CF0044A335 /* CategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889272A1DC9B2CF0044A335 /* CategoryCollectionViewCell.m */; };
+		1889272E1DC9C4EA0044A335 /* ShowCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889272D1DC9C4EA0044A335 /* ShowCategoryViewController.m */; };
+		188E54CF1DB711EF003CBB47 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188E54CE1DB711EF003CBB47 /* SWRevealViewController.m */; };
+		188E54D31DB71C44003CBB47 /* SidePanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188E54D21DB71C44003CBB47 /* SidePanelViewController.m */; };
+		188E54D61DB71DB3003CBB47 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188E54D51DB71DB3003CBB47 /* CoreLocation.framework */; };
+		188E54D81DB71DBA003CBB47 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188E54D71DB71DBA003CBB47 /* MapKit.framework */; };
+		18D4D0021DDE8DD400723086 /* SchedulerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D0011DDE8DD400723086 /* SchedulerViewController.m */; };
+		18D4D0051DDE993000723086 /* SchedulerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D0041DDE993000723086 /* SchedulerCollectionViewCell.m */; };
+		4CCFF8FD2E2FB8CCB5E4A068 /* Pods_FYPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C722C24681C8B2F697AE335 /* Pods_FYPUITests.framework */; };
+		7BA7B6D08C76B8605715AE4A /* Pods_FYPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F8ED9963048864230A905E /* Pods_FYPTests.framework */; };
+		DE0F3A562FA0A57136844BD1 /* Pods_FYP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87B7B6903CF2B1232394225 /* Pods_FYP.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +50,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		18189A271DDAF80200C59883 /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
+		18189A281DDAF80200C59883 /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
+		184ECCCA1DDAB2370034C7E6 /* RegisterAsDoctorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterAsDoctorViewController.h; sourceTree = "<group>"; };
+		184ECCCB1DDAB2370034C7E6 /* RegisterAsDoctorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterAsDoctorViewController.m; sourceTree = "<group>"; };
+		184ECCCD1DDABAB60034C7E6 /* RegisterAsDoctor2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterAsDoctor2ViewController.h; sourceTree = "<group>"; };
+		184ECCCE1DDABAB60034C7E6 /* RegisterAsDoctor2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterAsDoctor2ViewController.m; sourceTree = "<group>"; };
 		1875BBD61D96343E007AE7FE /* FYP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1875BBDA1D96343E007AE7FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1875BBDC1D96343E007AE7FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +72,31 @@
 		1875BBFA1D96343E007AE7FE /* FYPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1875BBFE1D96343E007AE7FE /* FYPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPUITests.m; sourceTree = "<group>"; };
 		1875BC001D96343E007AE7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		188927261DC9B1EF0044A335 /* CategoryCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewController.h; sourceTree = "<group>"; };
+		188927271DC9B1EF0044A335 /* CategoryCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewController.m; sourceTree = "<group>"; };
+		188927291DC9B2CF0044A335 /* CategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewCell.h; sourceTree = "<group>"; };
+		1889272A1DC9B2CF0044A335 /* CategoryCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewCell.m; sourceTree = "<group>"; };
+		1889272C1DC9C4EA0044A335 /* ShowCategoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowCategoryViewController.h; sourceTree = "<group>"; };
+		1889272D1DC9C4EA0044A335 /* ShowCategoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowCategoryViewController.m; sourceTree = "<group>"; };
+		188E54CD1DB711EF003CBB47 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		188E54CE1DB711EF003CBB47 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		188E54D11DB71C44003CBB47 /* SidePanelViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SidePanelViewController.h; sourceTree = "<group>"; };
+		188E54D21DB71C44003CBB47 /* SidePanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidePanelViewController.m; sourceTree = "<group>"; };
+		188E54D51DB71DB3003CBB47 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		188E54D71DB71DBA003CBB47 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18D4D0001DDE8DD400723086 /* SchedulerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchedulerViewController.h; sourceTree = "<group>"; };
+		18D4D0011DDE8DD400723086 /* SchedulerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchedulerViewController.m; sourceTree = "<group>"; };
+		18D4D0031DDE993000723086 /* SchedulerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchedulerCollectionViewCell.h; sourceTree = "<group>"; };
+		18D4D0041DDE993000723086 /* SchedulerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchedulerCollectionViewCell.m; sourceTree = "<group>"; };
+		20D0D349C10288889EE73979 /* Pods-FYP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYP/Pods-FYP.debug.xcconfig"; sourceTree = "<group>"; };
+		2E52D26B7711FC34D3C5D21F /* Pods-FYPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYPTests/Pods-FYPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		498C137AF15163C1CCA84004 /* Pods-FYPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYPTests/Pods-FYPTests.release.xcconfig"; sourceTree = "<group>"; };
+		8C722C24681C8B2F697AE335 /* Pods_FYPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93F8ED9963048864230A905E /* Pods_FYPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D87B7B6903CF2B1232394225 /* Pods_FYP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FYP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0E4B32E96639468C8483EC1 /* Pods-FYPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYPUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYPUITests/Pods-FYPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		EBFE47557B7DA741EB5765EC /* Pods-FYP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYP.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYP/Pods-FYP.release.xcconfig"; sourceTree = "<group>"; };
+		F38B944E09628FCFF896DD17 /* Pods-FYPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYPUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYPUITests/Pods-FYPUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +104,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				188E54D81DB71DBA003CBB47 /* MapKit.framework in Frameworks */,
+				188E54D61DB71DB3003CBB47 /* CoreLocation.framework in Frameworks */,
+				DE0F3A562FA0A57136844BD1 /* Pods_FYP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +114,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BA7B6D08C76B8605715AE4A /* Pods_FYPTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +122,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4CCFF8FD2E2FB8CCB5E4A068 /* Pods_FYPUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +136,8 @@
 				1875BBF21D96343E007AE7FE /* FYPTests */,
 				1875BBFD1D96343E007AE7FE /* FYPUITests */,
 				1875BBD71D96343E007AE7FE /* Products */,
+				188E54D41DB71DB2003CBB47 /* Frameworks */,
+				8332C7A5C2F2A1FD0C12A2C6 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +154,12 @@
 		1875BBD81D96343E007AE7FE /* FYP */ = {
 			isa = PBXGroup;
 			children = (
-				1875BBDC1D96343E007AE7FE /* AppDelegate.h */,
-				1875BBDD1D96343E007AE7FE /* AppDelegate.m */,
-				1875BBDF1D96343E007AE7FE /* ViewController.h */,
-				1875BBE01D96343E007AE7FE /* ViewController.m */,
+				1896207D1DE0A56600E9436B /* AppDelegate */,
+				188E54D01DB71951003CBB47 /* JASidePanel */,
+				189620831DE0A60600E9436B /* ShowCategoryViewController */,
+				189620841DE0A61900E9436B /* RegisterAsDoctorViewController */,
+				189620871DE0A66100E9436B /* FeedbackViewController */,
+				189620881DE0A67800E9436B /* SchedulerViewController */,
 				1875BBE21D96343E007AE7FE /* Main.storyboard */,
 				1875BBE51D96343E007AE7FE /* Assets.xcassets */,
 				1875BBE71D96343E007AE7FE /* LaunchScreen.storyboard */,
@@ -140,6 +195,177 @@
 			path = FYPUITests;
 			sourceTree = "<group>";
 		};
+		188E54D01DB71951003CBB47 /* JASidePanel */ = {
+			isa = PBXGroup;
+			children = (
+				189620801DE0A5B000E9436B /* CategoryCollectionViewController */,
+				1896207F1DE0A59D00E9436B /* SidePanelViewController */,
+				1896207E1DE0A57C00E9436B /* SWRevealViewController */,
+				1896207C1DE0A55100E9436B /* ViewController */,
+			);
+			name = JASidePanel;
+			sourceTree = "<group>";
+		};
+		188E54D41DB71DB2003CBB47 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				188E54D71DB71DBA003CBB47 /* MapKit.framework */,
+				188E54D51DB71DB3003CBB47 /* CoreLocation.framework */,
+				D87B7B6903CF2B1232394225 /* Pods_FYP.framework */,
+				93F8ED9963048864230A905E /* Pods_FYPTests.framework */,
+				8C722C24681C8B2F697AE335 /* Pods_FYPUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		1896207C1DE0A55100E9436B /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1875BBDF1D96343E007AE7FE /* ViewController.h */,
+				1875BBE01D96343E007AE7FE /* ViewController.m */,
+			);
+			name = ViewController;
+			sourceTree = "<group>";
+		};
+		1896207D1DE0A56600E9436B /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1875BBDC1D96343E007AE7FE /* AppDelegate.h */,
+				1875BBDD1D96343E007AE7FE /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		1896207E1DE0A57C00E9436B /* SWRevealViewController */ = {
+			isa = PBXGroup;
+			children = (
+				188E54CD1DB711EF003CBB47 /* SWRevealViewController.h */,
+				188E54CE1DB711EF003CBB47 /* SWRevealViewController.m */,
+			);
+			name = SWRevealViewController;
+			sourceTree = "<group>";
+		};
+		1896207F1DE0A59D00E9436B /* SidePanelViewController */ = {
+			isa = PBXGroup;
+			children = (
+				188E54D11DB71C44003CBB47 /* SidePanelViewController.h */,
+				188E54D21DB71C44003CBB47 /* SidePanelViewController.m */,
+			);
+			name = SidePanelViewController;
+			sourceTree = "<group>";
+		};
+		189620801DE0A5B000E9436B /* CategoryCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				189620821DE0A5CF00E9436B /* CategoryCollectionViewCell */,
+				189620811DE0A5C300E9436B /* CategoryCollectionViewController */,
+			);
+			name = CategoryCollectionViewController;
+			sourceTree = "<group>";
+		};
+		189620811DE0A5C300E9436B /* CategoryCollectionViewController */ = {
+			isa = PBXGroup;
+			children = (
+				188927261DC9B1EF0044A335 /* CategoryCollectionViewController.h */,
+				188927271DC9B1EF0044A335 /* CategoryCollectionViewController.m */,
+			);
+			name = CategoryCollectionViewController;
+			sourceTree = "<group>";
+		};
+		189620821DE0A5CF00E9436B /* CategoryCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				188927291DC9B2CF0044A335 /* CategoryCollectionViewCell.h */,
+				1889272A1DC9B2CF0044A335 /* CategoryCollectionViewCell.m */,
+			);
+			name = CategoryCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		189620831DE0A60600E9436B /* ShowCategoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1889272C1DC9C4EA0044A335 /* ShowCategoryViewController.h */,
+				1889272D1DC9C4EA0044A335 /* ShowCategoryViewController.m */,
+			);
+			name = ShowCategoryViewController;
+			sourceTree = "<group>";
+		};
+		189620841DE0A61900E9436B /* RegisterAsDoctorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				189620861DE0A64E00E9436B /* RegisterAsDoctor2ViewController */,
+				189620851DE0A62600E9436B /* RegisterAsDoctorViewController */,
+			);
+			name = RegisterAsDoctorViewController;
+			sourceTree = "<group>";
+		};
+		189620851DE0A62600E9436B /* RegisterAsDoctorViewController */ = {
+			isa = PBXGroup;
+			children = (
+				184ECCCA1DDAB2370034C7E6 /* RegisterAsDoctorViewController.h */,
+				184ECCCB1DDAB2370034C7E6 /* RegisterAsDoctorViewController.m */,
+			);
+			name = RegisterAsDoctorViewController;
+			sourceTree = "<group>";
+		};
+		189620861DE0A64E00E9436B /* RegisterAsDoctor2ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				184ECCCD1DDABAB60034C7E6 /* RegisterAsDoctor2ViewController.h */,
+				184ECCCE1DDABAB60034C7E6 /* RegisterAsDoctor2ViewController.m */,
+			);
+			name = RegisterAsDoctor2ViewController;
+			sourceTree = "<group>";
+		};
+		189620871DE0A66100E9436B /* FeedbackViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18189A271DDAF80200C59883 /* FeedbackViewController.h */,
+				18189A281DDAF80200C59883 /* FeedbackViewController.m */,
+			);
+			name = FeedbackViewController;
+			sourceTree = "<group>";
+		};
+		189620881DE0A67800E9436B /* SchedulerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1896208A1DE0A68E00E9436B /* SchedulerCollectionViewCell */,
+				189620891DE0A67F00E9436B /* SchedulerViewController */,
+			);
+			name = SchedulerViewController;
+			sourceTree = "<group>";
+		};
+		189620891DE0A67F00E9436B /* SchedulerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18D4D0001DDE8DD400723086 /* SchedulerViewController.h */,
+				18D4D0011DDE8DD400723086 /* SchedulerViewController.m */,
+			);
+			name = SchedulerViewController;
+			sourceTree = "<group>";
+		};
+		1896208A1DE0A68E00E9436B /* SchedulerCollectionViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				18D4D0031DDE993000723086 /* SchedulerCollectionViewCell.h */,
+				18D4D0041DDE993000723086 /* SchedulerCollectionViewCell.m */,
+			);
+			name = SchedulerCollectionViewCell;
+			sourceTree = "<group>";
+		};
+		8332C7A5C2F2A1FD0C12A2C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				20D0D349C10288889EE73979 /* Pods-FYP.debug.xcconfig */,
+				EBFE47557B7DA741EB5765EC /* Pods-FYP.release.xcconfig */,
+				2E52D26B7711FC34D3C5D21F /* Pods-FYPTests.debug.xcconfig */,
+				498C137AF15163C1CCA84004 /* Pods-FYPTests.release.xcconfig */,
+				E0E4B32E96639468C8483EC1 /* Pods-FYPUITests.debug.xcconfig */,
+				F38B944E09628FCFF896DD17 /* Pods-FYPUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +373,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1875BC031D96343E007AE7FE /* Build configuration list for PBXNativeTarget "FYP" */;
 			buildPhases = (
+				54708EE6D7D9BF109CA9AE58 /* [CP] Check Pods Manifest.lock */,
 				1875BBD21D96343D007AE7FE /* Sources */,
 				1875BBD31D96343D007AE7FE /* Frameworks */,
 				1875BBD41D96343D007AE7FE /* Resources */,
+				FA240A4B638B06DE7095B9AB /* [CP] Embed Pods Frameworks */,
+				B24C8DA0FB013E91A38B8727 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -164,9 +393,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1875BC061D96343E007AE7FE /* Build configuration list for PBXNativeTarget "FYPTests" */;
 			buildPhases = (
+				21C0901BA344AAD610A37C31 /* [CP] Check Pods Manifest.lock */,
 				1875BBEB1D96343E007AE7FE /* Sources */,
 				1875BBEC1D96343E007AE7FE /* Frameworks */,
 				1875BBED1D96343E007AE7FE /* Resources */,
+				AD989F17EA3FB3D0D57FDD73 /* [CP] Embed Pods Frameworks */,
+				BDCBCDC8F87F23B99E5123EB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -182,9 +414,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1875BC091D96343E007AE7FE /* Build configuration list for PBXNativeTarget "FYPUITests" */;
 			buildPhases = (
+				6014DB4E05DDE865FDBFDE39 /* [CP] Check Pods Manifest.lock */,
 				1875BBF61D96343E007AE7FE /* Sources */,
 				1875BBF71D96343E007AE7FE /* Frameworks */,
 				1875BBF81D96343E007AE7FE /* Resources */,
+				FC7A4E8C89CDD6B694529D46 /* [CP] Embed Pods Frameworks */,
+				C088D80EDC91F0A60AFF765D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -271,14 +506,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		21C0901BA344AAD610A37C31 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		54708EE6D7D9BF109CA9AE58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6014DB4E05DDE865FDBFDE39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AD989F17EA3FB3D0D57FDD73 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYPTests/Pods-FYPTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B24C8DA0FB013E91A38B8727 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYP/Pods-FYP-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDCBCDC8F87F23B99E5123EB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYPTests/Pods-FYPTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C088D80EDC91F0A60AFF765D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYPUITests/Pods-FYPUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FA240A4B638B06DE7095B9AB /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYP/Pods-FYP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC7A4E8C89CDD6B694529D46 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-FYPUITests/Pods-FYPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1875BBD21D96343D007AE7FE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				1875BBE11D96343E007AE7FE /* ViewController.m in Sources */,
+				188927281DC9B1EF0044A335 /* CategoryCollectionViewController.m in Sources */,
+				184ECCCF1DDABAB60034C7E6 /* RegisterAsDoctor2ViewController.m in Sources */,
 				1875BBDE1D96343E007AE7FE /* AppDelegate.m in Sources */,
+				1889272B1DC9B2CF0044A335 /* CategoryCollectionViewCell.m in Sources */,
 				1875BBDB1D96343E007AE7FE /* main.m in Sources */,
+				1889272E1DC9C4EA0044A335 /* ShowCategoryViewController.m in Sources */,
+				18D4D0021DDE8DD400723086 /* SchedulerViewController.m in Sources */,
+				188E54CF1DB711EF003CBB47 /* SWRevealViewController.m in Sources */,
+				18D4D0051DDE993000723086 /* SchedulerCollectionViewCell.m in Sources */,
+				184ECCCC1DDAB2370034C7E6 /* RegisterAsDoctorViewController.m in Sources */,
+				188E54D31DB71C44003CBB47 /* SidePanelViewController.m in Sources */,
+				18189A291DDAF80200C59883 /* FeedbackViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -425,6 +808,7 @@
 		};
 		1875BC041D96343E007AE7FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20D0D349C10288889EE73979 /* Pods-FYP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9AUFUUBW55;
@@ -437,6 +821,7 @@
 		};
 		1875BC051D96343E007AE7FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = EBFE47557B7DA741EB5765EC /* Pods-FYP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 9AUFUUBW55;
@@ -449,6 +834,7 @@
 		};
 		1875BC071D96343E007AE7FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E52D26B7711FC34D3C5D21F /* Pods-FYPTests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 9AUFUUBW55;
@@ -462,6 +848,7 @@
 		};
 		1875BC081D96343E007AE7FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 498C137AF15163C1CCA84004 /* Pods-FYPTests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 9AUFUUBW55;
@@ -475,6 +862,7 @@
 		};
 		1875BC0A1D96343E007AE7FE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E0E4B32E96639468C8483EC1 /* Pods-FYPUITests.debug.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9AUFUUBW55;
 				INFOPLIST_FILE = FYPUITests/Info.plist;
@@ -487,6 +875,7 @@
 		};
 		1875BC0B1D96343E007AE7FE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F38B944E09628FCFF896DD17 /* Pods-FYPUITests.release.xcconfig */;
 			buildSettings = {
 				DEVELOPMENT_TEAM = 9AUFUUBW55;
 				INFOPLIST_FILE = FYPUITests/Info.plist;
@@ -516,6 +905,7 @@
 				1875BC051D96343E007AE7FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1875BC061D96343E007AE7FE /* Build configuration list for PBXNativeTarget "FYPTests" */ = {
 			isa = XCConfigurationList;
@@ -524,6 +914,7 @@
 				1875BC081D96343E007AE7FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1875BC091D96343E007AE7FE /* Build configuration list for PBXNativeTarget "FYPUITests" */ = {
 			isa = XCConfigurationList;
@@ -532,6 +923,7 @@
 				1875BC0B1D96343E007AE7FE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

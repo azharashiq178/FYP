@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <MapKit/MapKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <MKMapViewDelegate>
+@property (weak, nonatomic) IBOutlet UIBarButtonItem *sideBarButton;
+@property (strong, nonatomic) IBOutlet MKMapView *mapView;
 
+- (IBAction)searchCategory:(id)sender;
+@property (weak, nonatomic) IBOutlet UIButton *searchCategoryButton;
+@property (weak, nonatomic) IBOutlet UIButton *searchDoctorButton;
 
 @end
 

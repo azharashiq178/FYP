@@ -1,0 +1,21 @@
+PODS:
+  - IQKeyboardManager (4.0.7)
+
+DEPENDENCIES:
+  - IQKeyboardManager (from `https://github.com/hackiftekhar/IQKeyboardManager`)
+
+EXTERNAL SOURCES:
+  IQKeyboardManager:
+    :git: https://github.com/hackiftekhar/IQKeyboardManager
+
+CHECKOUT OPTIONS:
+  IQKeyboardManager:
+    :commit: 3c699754f87a576f3ef498e0912f174473e5d57e
+    :git: https://github.com/hackiftekhar/IQKeyboardManager
+
+SPEC CHECKSUMS:
+  IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
+
+PODFILE CHECKSUM: 5e7bd480231f36628d20500685f66eb54923c627
+
+COCOAPODS: 1.1.1
