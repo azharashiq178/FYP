@@ -8,8 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		18189A291DDAF80200C59883 /* FeedbackViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18189A281DDAF80200C59883 /* FeedbackViewController.m */; };
+		182261221E50E92E007A9FB2 /* MVPlaceSearchTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822611F1E50E92E007A9FB2 /* MVPlaceSearchTextField.m */; };
+		182261231E50E92E007A9FB2 /* PlaceDetail.m in Sources */ = {isa = PBXBuildFile; fileRef = 182261201E50E92E007A9FB2 /* PlaceDetail.m */; };
+		182261241E50E92E007A9FB2 /* PlaceObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 182261211E50E92E007A9FB2 /* PlaceObject.m */; };
+		1822612C1E50E962007A9FB2 /* MLPAutoCompleteTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822612A1E50E962007A9FB2 /* MLPAutoCompleteTextField.m */; };
+		1822612D1E50E962007A9FB2 /* NSString+Levenshtein.m in Sources */ = {isa = PBXBuildFile; fileRef = 1822612B1E50E962007A9FB2 /* NSString+Levenshtein.m */; };
 		184ECCCC1DDAB2370034C7E6 /* RegisterAsDoctorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ECCCB1DDAB2370034C7E6 /* RegisterAsDoctorViewController.m */; };
 		184ECCCF1DDABAB60034C7E6 /* RegisterAsDoctor2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 184ECCCE1DDABAB60034C7E6 /* RegisterAsDoctor2ViewController.m */; };
+		185A4A781E59AC6B00462EEA /* MovieData.m in Sources */ = {isa = PBXBuildFile; fileRef = 185A4A771E59AC6B00462EEA /* MovieData.m */; };
 		1875BBDB1D96343E007AE7FE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875BBDA1D96343E007AE7FE /* main.m */; };
 		1875BBDE1D96343E007AE7FE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875BBDD1D96343E007AE7FE /* AppDelegate.m */; };
 		1875BBE11D96343E007AE7FE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875BBE01D96343E007AE7FE /* ViewController.m */; };
@@ -18,15 +24,24 @@
 		1875BBE91D96343E007AE7FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1875BBE71D96343E007AE7FE /* LaunchScreen.storyboard */; };
 		1875BBF41D96343E007AE7FE /* FYPTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875BBF31D96343E007AE7FE /* FYPTests.m */; };
 		1875BBFF1D96343E007AE7FE /* FYPUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1875BBFE1D96343E007AE7FE /* FYPUITests.m */; };
+		1883D00A1E488F41008F3F0F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188E54D51DB71DB3003CBB47 /* CoreLocation.framework */; };
+		1883D00D1E48FC36008F3F0F /* LocationManagerHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1883D00C1E48FC36008F3F0F /* LocationManagerHelper.m */; };
 		188927281DC9B1EF0044A335 /* CategoryCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188927271DC9B1EF0044A335 /* CategoryCollectionViewController.m */; };
 		1889272B1DC9B2CF0044A335 /* CategoryCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889272A1DC9B2CF0044A335 /* CategoryCollectionViewCell.m */; };
 		1889272E1DC9C4EA0044A335 /* ShowCategoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1889272D1DC9C4EA0044A335 /* ShowCategoryViewController.m */; };
 		188E54CF1DB711EF003CBB47 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188E54CE1DB711EF003CBB47 /* SWRevealViewController.m */; };
 		188E54D31DB71C44003CBB47 /* SidePanelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188E54D21DB71C44003CBB47 /* SidePanelViewController.m */; };
-		188E54D61DB71DB3003CBB47 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188E54D51DB71DB3003CBB47 /* CoreLocation.framework */; };
 		188E54D81DB71DBA003CBB47 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 188E54D71DB71DBA003CBB47 /* MapKit.framework */; };
+		18B967121E44EF7400237F78 /* SearchDoctorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18B967111E44EF7400237F78 /* SearchDoctorViewController.m */; };
+		18BD5E541E71329900804356 /* SearchResultViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD5E531E71329900804356 /* SearchResultViewController.m */; };
+		18BD5E571E7138D500804356 /* HealthArticleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18BD5E561E7138D500804356 /* HealthArticleViewController.m */; };
+		18D167591E5ED3E900CFFE49 /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D167581E5ED3E900CFFE49 /* LoginViewController.m */; };
 		18D4D0021DDE8DD400723086 /* SchedulerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D0011DDE8DD400723086 /* SchedulerViewController.m */; };
 		18D4D0051DDE993000723086 /* SchedulerCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18D4D0041DDE993000723086 /* SchedulerCollectionViewCell.m */; };
+		18F14FE71E6E89D5004E1825 /* ShowCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F14FE61E6E89D5004E1825 /* ShowCategoryTableViewCell.m */; };
+		18F31EC21E68D93300447C09 /* DoctorData.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F31EC11E68D93300447C09 /* DoctorData.m */; };
+		18F31EC51E68EB3500447C09 /* SearchDoctorTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F31EC41E68EB3500447C09 /* SearchDoctorTableViewCell.m */; };
+		18F31EC81E68FFFD00447C09 /* ShowProfileViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 18F31EC71E68FFFD00447C09 /* ShowProfileViewController.m */; };
 		4CCFF8FD2E2FB8CCB5E4A068 /* Pods_FYPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8C722C24681C8B2F697AE335 /* Pods_FYPUITests.framework */; };
 		7BA7B6D08C76B8605715AE4A /* Pods_FYPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93F8ED9963048864230A905E /* Pods_FYPTests.framework */; };
 		DE0F3A562FA0A57136844BD1 /* Pods_FYP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D87B7B6903CF2B1232394225 /* Pods_FYP.framework */; };
@@ -52,10 +67,25 @@
 /* Begin PBXFileReference section */
 		18189A271DDAF80200C59883 /* FeedbackViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedbackViewController.h; sourceTree = "<group>"; };
 		18189A281DDAF80200C59883 /* FeedbackViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedbackViewController.m; sourceTree = "<group>"; };
+		1822611C1E50E92E007A9FB2 /* MVPlaceSearchTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MVPlaceSearchTextField.h; path = MVPlaceSearchTextField/MVPlaceSearchTextField.h; sourceTree = "<group>"; };
+		1822611D1E50E92E007A9FB2 /* PlaceDetail.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceDetail.h; path = MVPlaceSearchTextField/PlaceDetail.h; sourceTree = "<group>"; };
+		1822611E1E50E92E007A9FB2 /* PlaceObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PlaceObject.h; path = MVPlaceSearchTextField/PlaceObject.h; sourceTree = "<group>"; };
+		1822611F1E50E92E007A9FB2 /* MVPlaceSearchTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MVPlaceSearchTextField.m; path = MVPlaceSearchTextField/MVPlaceSearchTextField.m; sourceTree = "<group>"; };
+		182261201E50E92E007A9FB2 /* PlaceDetail.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceDetail.m; path = MVPlaceSearchTextField/PlaceDetail.m; sourceTree = "<group>"; };
+		182261211E50E92E007A9FB2 /* PlaceObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PlaceObject.m; path = MVPlaceSearchTextField/PlaceObject.m; sourceTree = "<group>"; };
+		182261251E50E962007A9FB2 /* MLPAutoCompleteTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLPAutoCompleteTextField.h; path = MVPlaceSearchTextField/MLPAutoCompleteTextField/MLPAutoCompleteTextField.h; sourceTree = "<group>"; };
+		182261261E50E962007A9FB2 /* MLPAutoCompleteTextFieldDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLPAutoCompleteTextFieldDataSource.h; path = MVPlaceSearchTextField/MLPAutoCompleteTextField/MLPAutoCompleteTextFieldDataSource.h; sourceTree = "<group>"; };
+		182261271E50E962007A9FB2 /* MLPAutoCompleteTextFieldDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLPAutoCompleteTextFieldDelegate.h; path = MVPlaceSearchTextField/MLPAutoCompleteTextField/MLPAutoCompleteTextFieldDelegate.h; sourceTree = "<group>"; };
+		182261281E50E962007A9FB2 /* MLPAutoCompletionObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MLPAutoCompletionObject.h; path = MVPlaceSearchTextField/MLPAutoCompleteTextField/MLPAutoCompletionObject.h; sourceTree = "<group>"; };
+		182261291E50E962007A9FB2 /* NSString+Levenshtein.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+Levenshtein.h"; path = "MVPlaceSearchTextField/MLPAutoCompleteTextField/NSString+Levenshtein.h"; sourceTree = "<group>"; };
+		1822612A1E50E962007A9FB2 /* MLPAutoCompleteTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MLPAutoCompleteTextField.m; path = MVPlaceSearchTextField/MLPAutoCompleteTextField/MLPAutoCompleteTextField.m; sourceTree = "<group>"; };
+		1822612B1E50E962007A9FB2 /* NSString+Levenshtein.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+Levenshtein.m"; path = "MVPlaceSearchTextField/MLPAutoCompleteTextField/NSString+Levenshtein.m"; sourceTree = "<group>"; };
 		184ECCCA1DDAB2370034C7E6 /* RegisterAsDoctorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterAsDoctorViewController.h; sourceTree = "<group>"; };
 		184ECCCB1DDAB2370034C7E6 /* RegisterAsDoctorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterAsDoctorViewController.m; sourceTree = "<group>"; };
 		184ECCCD1DDABAB60034C7E6 /* RegisterAsDoctor2ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RegisterAsDoctor2ViewController.h; sourceTree = "<group>"; };
 		184ECCCE1DDABAB60034C7E6 /* RegisterAsDoctor2ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RegisterAsDoctor2ViewController.m; sourceTree = "<group>"; };
+		185A4A761E59AC6B00462EEA /* MovieData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MovieData.h; sourceTree = "<group>"; };
+		185A4A771E59AC6B00462EEA /* MovieData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MovieData.m; sourceTree = "<group>"; };
 		1875BBD61D96343E007AE7FE /* FYP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FYP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1875BBDA1D96343E007AE7FE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1875BBDC1D96343E007AE7FE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -72,6 +102,8 @@
 		1875BBFA1D96343E007AE7FE /* FYPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FYPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1875BBFE1D96343E007AE7FE /* FYPUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FYPUITests.m; sourceTree = "<group>"; };
 		1875BC001D96343E007AE7FE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1883D00B1E48FC36008F3F0F /* LocationManagerHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LocationManagerHelper.h; sourceTree = "<group>"; };
+		1883D00C1E48FC36008F3F0F /* LocationManagerHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LocationManagerHelper.m; sourceTree = "<group>"; };
 		188927261DC9B1EF0044A335 /* CategoryCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewController.h; sourceTree = "<group>"; };
 		188927271DC9B1EF0044A335 /* CategoryCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CategoryCollectionViewController.m; sourceTree = "<group>"; };
 		188927291DC9B2CF0044A335 /* CategoryCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CategoryCollectionViewCell.h; sourceTree = "<group>"; };
@@ -84,10 +116,26 @@
 		188E54D21DB71C44003CBB47 /* SidePanelViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SidePanelViewController.m; sourceTree = "<group>"; };
 		188E54D51DB71DB3003CBB47 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		188E54D71DB71DBA003CBB47 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		18B967101E44EF7400237F78 /* SearchDoctorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDoctorViewController.h; sourceTree = "<group>"; };
+		18B967111E44EF7400237F78 /* SearchDoctorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDoctorViewController.m; sourceTree = "<group>"; };
+		18BD5E521E71329900804356 /* SearchResultViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResultViewController.h; sourceTree = "<group>"; };
+		18BD5E531E71329900804356 /* SearchResultViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResultViewController.m; sourceTree = "<group>"; };
+		18BD5E551E7138D500804356 /* HealthArticleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HealthArticleViewController.h; sourceTree = "<group>"; };
+		18BD5E561E7138D500804356 /* HealthArticleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HealthArticleViewController.m; sourceTree = "<group>"; };
+		18D167571E5ED3E900CFFE49 /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		18D167581E5ED3E900CFFE49 /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
 		18D4D0001DDE8DD400723086 /* SchedulerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchedulerViewController.h; sourceTree = "<group>"; };
 		18D4D0011DDE8DD400723086 /* SchedulerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchedulerViewController.m; sourceTree = "<group>"; };
 		18D4D0031DDE993000723086 /* SchedulerCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchedulerCollectionViewCell.h; sourceTree = "<group>"; };
 		18D4D0041DDE993000723086 /* SchedulerCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchedulerCollectionViewCell.m; sourceTree = "<group>"; };
+		18F14FE51E6E89D5004E1825 /* ShowCategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowCategoryTableViewCell.h; sourceTree = "<group>"; };
+		18F14FE61E6E89D5004E1825 /* ShowCategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowCategoryTableViewCell.m; sourceTree = "<group>"; };
+		18F31EC01E68D93300447C09 /* DoctorData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoctorData.h; sourceTree = "<group>"; };
+		18F31EC11E68D93300447C09 /* DoctorData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoctorData.m; sourceTree = "<group>"; };
+		18F31EC31E68EB3500447C09 /* SearchDoctorTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchDoctorTableViewCell.h; sourceTree = "<group>"; };
+		18F31EC41E68EB3500447C09 /* SearchDoctorTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchDoctorTableViewCell.m; sourceTree = "<group>"; };
+		18F31EC61E68FFFD00447C09 /* ShowProfileViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowProfileViewController.h; sourceTree = "<group>"; };
+		18F31EC71E68FFFD00447C09 /* ShowProfileViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowProfileViewController.m; sourceTree = "<group>"; };
 		20D0D349C10288889EE73979 /* Pods-FYP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYP.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYP/Pods-FYP.debug.xcconfig"; sourceTree = "<group>"; };
 		2E52D26B7711FC34D3C5D21F /* Pods-FYPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYPTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FYPTests/Pods-FYPTests.debug.xcconfig"; sourceTree = "<group>"; };
 		498C137AF15163C1CCA84004 /* Pods-FYPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FYPTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FYPTests/Pods-FYPTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -104,8 +152,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1883D00A1E488F41008F3F0F /* CoreLocation.framework in Frameworks */,
 				188E54D81DB71DBA003CBB47 /* MapKit.framework in Frameworks */,
-				188E54D61DB71DB3003CBB47 /* CoreLocation.framework in Frameworks */,
 				DE0F3A562FA0A57136844BD1 /* Pods_FYP.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -129,6 +177,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1822611A1E50E90A007A9FB2 /* MVPlaceSearchTextField */ = {
+			isa = PBXGroup;
+			children = (
+				1822611B1E50E919007A9FB2 /* MLPAutoCompleteTextField */,
+				1822611C1E50E92E007A9FB2 /* MVPlaceSearchTextField.h */,
+				1822611D1E50E92E007A9FB2 /* PlaceDetail.h */,
+				1822611E1E50E92E007A9FB2 /* PlaceObject.h */,
+				1822611F1E50E92E007A9FB2 /* MVPlaceSearchTextField.m */,
+				182261201E50E92E007A9FB2 /* PlaceDetail.m */,
+				182261211E50E92E007A9FB2 /* PlaceObject.m */,
+			);
+			name = MVPlaceSearchTextField;
+			sourceTree = "<group>";
+		};
+		1822611B1E50E919007A9FB2 /* MLPAutoCompleteTextField */ = {
+			isa = PBXGroup;
+			children = (
+				182261251E50E962007A9FB2 /* MLPAutoCompleteTextField.h */,
+				182261261E50E962007A9FB2 /* MLPAutoCompleteTextFieldDataSource.h */,
+				182261271E50E962007A9FB2 /* MLPAutoCompleteTextFieldDelegate.h */,
+				182261281E50E962007A9FB2 /* MLPAutoCompletionObject.h */,
+				182261291E50E962007A9FB2 /* NSString+Levenshtein.h */,
+				1822612A1E50E962007A9FB2 /* MLPAutoCompleteTextField.m */,
+				1822612B1E50E962007A9FB2 /* NSString+Levenshtein.m */,
+			);
+			name = MLPAutoCompleteTextField;
+			sourceTree = "<group>";
+		};
 		1875BBCD1D96343D007AE7FE = {
 			isa = PBXGroup;
 			children = (
@@ -154,6 +230,11 @@
 		1875BBD81D96343E007AE7FE /* FYP */ = {
 			isa = PBXGroup;
 			children = (
+				18F31EC01E68D93300447C09 /* DoctorData.h */,
+				18F31EC11E68D93300447C09 /* DoctorData.m */,
+				1822611A1E50E90A007A9FB2 /* MVPlaceSearchTextField */,
+				1883D00B1E48FC36008F3F0F /* LocationManagerHelper.h */,
+				1883D00C1E48FC36008F3F0F /* LocationManagerHelper.m */,
 				1896207D1DE0A56600E9436B /* AppDelegate */,
 				188E54D01DB71951003CBB47 /* JASidePanel */,
 				189620831DE0A60600E9436B /* ShowCategoryViewController */,
@@ -165,6 +246,20 @@
 				1875BBE71D96343E007AE7FE /* LaunchScreen.storyboard */,
 				1875BBEA1D96343E007AE7FE /* Info.plist */,
 				1875BBD91D96343E007AE7FE /* Supporting Files */,
+				18B967101E44EF7400237F78 /* SearchDoctorViewController.h */,
+				18B967111E44EF7400237F78 /* SearchDoctorViewController.m */,
+				185A4A761E59AC6B00462EEA /* MovieData.h */,
+				185A4A771E59AC6B00462EEA /* MovieData.m */,
+				18F31EC31E68EB3500447C09 /* SearchDoctorTableViewCell.h */,
+				18F31EC41E68EB3500447C09 /* SearchDoctorTableViewCell.m */,
+				18F31EC61E68FFFD00447C09 /* ShowProfileViewController.h */,
+				18F31EC71E68FFFD00447C09 /* ShowProfileViewController.m */,
+				18F14FE51E6E89D5004E1825 /* ShowCategoryTableViewCell.h */,
+				18F14FE61E6E89D5004E1825 /* ShowCategoryTableViewCell.m */,
+				18BD5E521E71329900804356 /* SearchResultViewController.h */,
+				18BD5E531E71329900804356 /* SearchResultViewController.m */,
+				18BD5E551E7138D500804356 /* HealthArticleViewController.h */,
+				18BD5E561E7138D500804356 /* HealthArticleViewController.m */,
 			);
 			path = FYP;
 			sourceTree = "<group>";
@@ -198,6 +293,7 @@
 		188E54D01DB71951003CBB47 /* JASidePanel */ = {
 			isa = PBXGroup;
 			children = (
+				18D167561E5ED3D000CFFE49 /* LoginViewController */,
 				189620801DE0A5B000E9436B /* CategoryCollectionViewController */,
 				1896207F1DE0A59D00E9436B /* SidePanelViewController */,
 				1896207E1DE0A57C00E9436B /* SWRevealViewController */,
@@ -353,6 +449,15 @@
 			name = SchedulerCollectionViewCell;
 			sourceTree = "<group>";
 		};
+		18D167561E5ED3D000CFFE49 /* LoginViewController */ = {
+			isa = PBXGroup;
+			children = (
+				18D167571E5ED3E900CFFE49 /* LoginViewController.h */,
+				18D167581E5ED3E900CFFE49 /* LoginViewController.m */,
+			);
+			name = LoginViewController;
+			sourceTree = "<group>";
+		};
 		8332C7A5C2F2A1FD0C12A2C6 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -437,7 +542,7 @@
 		1875BBCE1D96343D007AE7FE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = apple;
 				TargetAttributes = {
 					1875BBD51D96343D007AE7FE = {
@@ -649,18 +754,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18F31EC81E68FFFD00447C09 /* ShowProfileViewController.m in Sources */,
 				1875BBE11D96343E007AE7FE /* ViewController.m in Sources */,
+				1822612D1E50E962007A9FB2 /* NSString+Levenshtein.m in Sources */,
 				188927281DC9B1EF0044A335 /* CategoryCollectionViewController.m in Sources */,
 				184ECCCF1DDABAB60034C7E6 /* RegisterAsDoctor2ViewController.m in Sources */,
 				1875BBDE1D96343E007AE7FE /* AppDelegate.m in Sources */,
+				18F14FE71E6E89D5004E1825 /* ShowCategoryTableViewCell.m in Sources */,
+				185A4A781E59AC6B00462EEA /* MovieData.m in Sources */,
 				1889272B1DC9B2CF0044A335 /* CategoryCollectionViewCell.m in Sources */,
 				1875BBDB1D96343E007AE7FE /* main.m in Sources */,
 				1889272E1DC9C4EA0044A335 /* ShowCategoryViewController.m in Sources */,
+				18BD5E541E71329900804356 /* SearchResultViewController.m in Sources */,
 				18D4D0021DDE8DD400723086 /* SchedulerViewController.m in Sources */,
+				18BD5E571E7138D500804356 /* HealthArticleViewController.m in Sources */,
+				1883D00D1E48FC36008F3F0F /* LocationManagerHelper.m in Sources */,
 				188E54CF1DB711EF003CBB47 /* SWRevealViewController.m in Sources */,
+				18F31EC21E68D93300447C09 /* DoctorData.m in Sources */,
+				1822612C1E50E962007A9FB2 /* MLPAutoCompleteTextField.m in Sources */,
+				182261221E50E92E007A9FB2 /* MVPlaceSearchTextField.m in Sources */,
+				182261231E50E92E007A9FB2 /* PlaceDetail.m in Sources */,
+				182261241E50E92E007A9FB2 /* PlaceObject.m in Sources */,
+				18B967121E44EF7400237F78 /* SearchDoctorViewController.m in Sources */,
+				18F31EC51E68EB3500447C09 /* SearchDoctorTableViewCell.m in Sources */,
 				18D4D0051DDE993000723086 /* SchedulerCollectionViewCell.m in Sources */,
 				184ECCCC1DDAB2370034C7E6 /* RegisterAsDoctorViewController.m in Sources */,
 				188E54D31DB71C44003CBB47 /* SidePanelViewController.m in Sources */,
+				18D167591E5ED3E900CFFE49 /* LoginViewController.m in Sources */,
 				18189A291DDAF80200C59883 /* FeedbackViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -734,6 +854,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -756,7 +877,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -782,6 +903,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -798,7 +920,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -811,11 +933,15 @@
 			baseConfigurationReference = 20D0D349C10288889EE73979 /* Pods-FYP.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9AUFUUBW55;
 				INFOPLIST_FILE = FYP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Extreme-Solutions.FYP";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ExtremeSolutions.FYP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Debug;
 		};
@@ -824,11 +950,15 @@
 			baseConfigurationReference = EBFE47557B7DA741EB5765EC /* Pods-FYP.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = 9AUFUUBW55;
 				INFOPLIST_FILE = FYP/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.Extreme-Solutions.FYP";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ExtremeSolutions.FYP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
 			name = Release;
 		};

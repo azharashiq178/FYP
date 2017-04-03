@@ -8,14 +8,25 @@
 
 #import <UIKit/UIKit.h>
 #import <MapKit/MapKit.h>
+#import <CoreLocation/CoreLocation.h>
+@import GoogleMaps;
 
-@interface ViewController : UIViewController <MKMapViewDelegate>
+@interface ViewController : UIViewController <MKMapViewDelegate,CLLocationManagerDelegate,GMSMapViewDelegate>
+
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sideBarButton;
-@property (strong, nonatomic) IBOutlet MKMapView *mapView;
+@property (weak, nonatomic) IBOutlet UIActivityIndicatorView *activity;
 
-- (IBAction)searchCategory:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *searchCategoryButton;
 @property (weak, nonatomic) IBOutlet UIButton *searchDoctorButton;
+@property (strong, nonatomic) IBOutlet GMSMapView *tempMap;
+@property (weak, nonatomic) IBOutlet UIView *myMap;
+
+@property (nonatomic) float lon;
+@property (nonatomic) float lat;
+//@property(nonatomic,retain) CLLocationManager *locationManager;
+
+
+- (IBAction)searchCategory:(id)sender;
 
 @end
 

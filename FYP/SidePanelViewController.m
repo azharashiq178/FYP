@@ -9,29 +9,24 @@
 #import "SidePanelViewController.h"
 #import "ViewController.h"
 #import "SWRevealViewController.h"
-
+#import "AppDelegate.h"
 @interface SidePanelViewController ()
-
+@property BOOL myTempCheck;
 @end
 
 @implementation SidePanelViewController
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-//    self.title = @"Azher";
-//    [_goToMain addTarget:self.revealViewController action:@selector(revealToggle:) forControlEvents:UIControlEventTouchDown];
-//    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
-    //    _goToMain.target = self.revealViewController;
-    //    _goToMain.action = @selector(revealToggle:);
-    //    [self.view addGestureRecognizer:self.revealViewController.panGestureRecognizer];
-
-
-//    [self.navigationItem.rightBarButtonItem setTarget:@selector(exitController:)];
-    // Uncomment the following line to preserve selection between presentations.
-    // self.clearsSelectionOnViewWillAppear = NO;
-    
-    // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
-    // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    [self.tableView setScrollEnabled:NO];
+    _myTempCheck = NO;
+//    if(self.hideButton == YES){
+//        NSLog(@"i am here");
+//        [self.goToMain setHidden:YES];
+//    }
+//    else{
+//        NSLog(@"%@",self.hideButton);
+//        NSLog(@"NOt updated");
+//    }
 }
 
 - (void)didReceiveMemoryWarning {
@@ -98,20 +93,46 @@
 
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    if([segue.identifier  isEqual: @"home"]){
-        NSLog(@"Here");
-    [self.view removeFromSuperview];
-    [self.presentedViewController removeFromParentViewController];
-        self.view = nil;
-    }
-//    [self.viewcontroller removeFromSuperview];
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+    
 }
 
 - (IBAction)mainScreen:(id)sender {
 }
-//- (IBAction)exitController:(id)sender{
-//    [self dismissViewControllerAnimated:YES completion:nil];
-//}
+-(void)updateViewController:(LoginViewController *)controller didUserLoggedin:(NSString *)text{
+    NSLog(@"Here user logged in");
+    self.myTempCheck = YES;
+//    if(text == YES){
+//        [self.goToMain setHidden:YES];
+//    }
+}
+-(void)viewWillAppear:(BOOL)animated{
+    NSLog(@"I am here");
+    NSData *serialized = [[NSUserDefaults standardUserDefaults] objectForKey:@"myKey"];
+    NSString *loginInfo = [NSKeyedUnarchiver unarchiveObjectWithData:serialized];
+    if([loginInfo isEqualToString:@"LoggedIn"]){
+        [self.loginButton setHidden:YES];
+        [self.logOutButton setHidden:NO];
+//        [self.goToMain setHidden:YES];
+    }
+    else{
+        [self.loginButton setHidden:NO];
+        [self.logOutButton setHidden:YES];
+    }
+}
+- (IBAction)logOutAction:(id)sender {
+    NSString *loginInfo = @"LoggedOut";
+    NSData *serialized = [NSKeyedArchiver archivedDataWithRootObject:loginInfo];
+    [[NSUserDefaults standardUserDefaults] setObject:serialized forKey:@"myKey"];
+    [[NSUserDefaults standardUserDefaults] synchronize];
+    [self.tableView reloadData];
+}
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+{
+    if([self.tableView isScrollEnabled]){
+        [self.tableView setScrollEnabled:NO];
+    }
+    else{
+        [self.tableView setScrollEnabled:YES];
+    }
+}
 @end

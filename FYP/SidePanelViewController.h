@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "LoginViewController.h"
 @interface SidePanelViewController : UITableViewController
 - (IBAction)mainScreen:(id)sender;
 @property (weak, nonatomic) IBOutlet UIButton *goToMain;
-
+@property (weak, nonatomic) IBOutlet UIButton *loginButton;
+@property (weak, nonatomic) IBOutlet UIButton *logOutButton;
+@property BOOL hideButton;
 @end

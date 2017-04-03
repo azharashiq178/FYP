@@ -10,7 +10,7 @@
 #import "CategoryCollectionViewCell.h"
 #import "SWRevealViewController.h"
 #import "ShowCategoryViewController.h"
-#import "ShowViewController1.h"
+//#import "ShowViewController1.h"
 
 @interface CategoryCollectionViewController (){
     NSArray *categoryImages;
@@ -25,6 +25,8 @@ static NSString * const reuseIdentifier = @"Cell";
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    
+    
     [self.navigationController.navigationBar setBarTintColor:[UIColor colorWithRed:0.067 green:0.136 blue:0.197 alpha:1]];
     [self.navigationController.navigationBar setTintColor:[UIColor whiteColor]];
     _sideBarButton.target = self.revealViewController;
@@ -40,7 +42,7 @@ static NSString * const reuseIdentifier = @"Cell";
     // Do any additional setup after loading the view.
     categoryImages = [NSArray arrayWithObjects:@"cardiologist",@"dentist",@"dermatologist",@"ent_specialist",@"eye_specialist",@"gastroenterologist",@"general_physician",@"gynecologist",@"liver_specialist",@"neurologist",@"nutritionist",@"oncologist",@"orthopedic_surgeon",@"pediatrician",@"physiotherapist",@"pulmonologist",@"pyschitarist",@"urologist", nil];
     
-    categoryNames = [NSArray arrayWithObjects:@"Cardiologist",@"Dentist",@"Dermatologist",@"Ear specialist",@"Eye specialist", @"Gastroenterologist", @"General physician", @"Gynecologist", @"Liver Specialist", @"Neurologist", @"Nutritionist", @"Oncologist", @"Orthopedic Surgeon", @"Pediatrician", @"Physiotherapist", @"Pulmonologist",@"Pyschitarist",@"Urologist", nil];
+    categoryNames = [NSArray arrayWithObjects:@"Cardiologist",@"Dentistry",@"Dermatologist",@"Ear specialist",@"Eye specialist", @"Gastroentrology", @"General physician", @"Gynecologist", @"Liver Specialist", @"Neurologist", @"Nutritionist", @"Oncologist", @"Orthopedic Surgeon", @"Pediatrician", @"Physiotherapist", @"Pulmonologist",@"Pyschitarist",@"Urologist", nil];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -81,6 +83,8 @@ static NSString * const reuseIdentifier = @"Cell";
 //    NSLog(@"%@",[categoryNames objectAtIndex:indexPath.row]);
 }
 #pragma mark <UICollectionViewDelegate>
+
+
 
 /*
 // Uncomment this method to specify if the specified item should be highlighted during tracking
@@ -123,5 +127,18 @@ static NSString * const reuseIdentifier = @"Cell";
        ShowCategoryViewController *destViewController = segue.destinationViewController;
         destViewController.simpleText = [categoryNames objectAtIndex:indexPath.row];
     }
+}
+
+
+-(CGSize)collectionView:(UICollectionView *)collectionView layout:(UICollectionViewLayout *)collectionViewLayout sizeForItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    CGFloat width = (self.view.frame.size.width/2)-8;
+    
+    return CGSizeMake(width, width/2);
+}
+- (void)didRotateFromInterfaceOrientation:(UIInterfaceOrientation)fromInterfaceOrientation
+{
+    [self.collectionView performBatchUpdates:nil completion:nil];
+    NSLog(@"Rotated");
 }
 @end

@@ -8,10 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface CategoryCollectionViewController : UICollectionViewController
+@interface CategoryCollectionViewController : UICollectionViewController <UICollectionViewDelegateFlowLayout>
 @property (weak, nonatomic) IBOutlet UIImageView *images;
 @property (weak, nonatomic) IBOutlet UIBarButtonItem *sideBarButton;
-- (IBAction)showSideBar:(id)sender;
+//- (IBAction)showSideBar:(id)sender;
 
 
 @end

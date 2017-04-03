@@ -1706,7 +1706,10 @@ const int FrontViewPositionNone = 0xff;
         {
             [self performSegueWithIdentifier:SWSegueFrontIdentifier sender:nil];
         }
-        @catch(NSException *exception) {}
+        @catch(NSException *exception) {
+            
+            NSLog(@"%@",exception);
+        }
         
         @try
         {

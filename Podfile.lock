@@ -1,21 +1,59 @@
 PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - GoogleMaps (2.1.1):
+    - GoogleMaps/Maps (= 2.1.1)
+  - GoogleMaps/Base (2.1.1)
+  - GoogleMaps/Maps (2.1.1):
+    - GoogleMaps/Base
+  - GooglePlacePicker (2.1.1):
+    - GoogleMaps (= 2.1.1)
+    - GooglePlaces (= 2.1.1)
+  - GooglePlaces (2.1.1):
+    - GoogleMaps/Base (= 2.1.1)
   - IQKeyboardManager (4.0.7)
 
 DEPENDENCIES:
+  - AFNetworking (from `https://github.com/AFNetworking/AFNetworking`)
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
   - IQKeyboardManager (from `https://github.com/hackiftekhar/IQKeyboardManager`)
 
 EXTERNAL SOURCES:
+  AFNetworking:
+    :git: https://github.com/AFNetworking/AFNetworking
   IQKeyboardManager:
     :git: https://github.com/hackiftekhar/IQKeyboardManager
 
 CHECKOUT OPTIONS:
+  AFNetworking:
+    :commit: 4f3c694920ed0f5d3a8e180aacaf3af40c2efb4a
+    :git: https://github.com/AFNetworking/AFNetworking
   IQKeyboardManager:
     :commit: 3c699754f87a576f3ef498e0912f174473e5d57e
     :git: https://github.com/hackiftekhar/IQKeyboardManager
 
 SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  GoogleMaps: a5b5bbe47734e2443bde781a6aa64e69fdb6d785
+  GooglePlacePicker: 665f39f931f2df32f9dd3fcc45f7e8abf71e535c
+  GooglePlaces: 35636d86e5020cba3856eb988c09a5491de0a65a
   IQKeyboardManager: 69002bb4fea60596b710e57d426abc00e5063630
 
-PODFILE CHECKSUM: 5e7bd480231f36628d20500685f66eb54923c627
+PODFILE CHECKSUM: c9b2abfbfd6c09bdebcd9973f188fafcf9843b08
 
-COCOAPODS: 1.1.1
+COCOAPODS: 1.2.0
